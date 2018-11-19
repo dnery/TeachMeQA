@@ -1,29 +1,40 @@
-pipeline {
-    agent {
-        docker { image 'python:3.5.1' }
-    }
-    stages {
-        stage('build') {
-            steps {
-                sh 'python --version'
+node('docker') {
+    currentBuild.result = 'SUCCESS'
 
-                retry(3) {
-                    timeout(time: 5, unit: 'SECONDS') {
-                        sh '''
-                            echo "Starting timeout"
-                            sleep 10
-                        '''
-                    }
+        try {
+            docker.image('maven:3.6.0-jdk-8').inside {
+
+                stage('Checkout') {
+                    checkout scm
+                }
+
+                stage('Test-Env') {
+                    sh 'mvn --version'
+                    sh 'echo $JAVA_HOME'
+                }
+
+                stage('Deploy') {
+                    sh './redeploy'
+                }
+
+                stage('Tail') {
+                    sh 'tail -f apache-tomcat-9.0.13/logs/catalina.out'
                 }
             }
+
+        } catch (err) {
+            currentBuild.result = 'FAILURE'
+
+            echo 'Error: ' + err.toString()
+
+            throw err
+
+        } finally {
+
+            if (curentBuild.result == 'SUCCESS') {
+                sh 'echo "Build was a success!"'
+            } else {
+                sh 'echo "Build was a failure!"'
+            }
         }
-    }
-    post {
-        success {
-            echo "Build success!"
-        }
-        failure {
-            echo "Build failure..."
-        }
-    }
 }

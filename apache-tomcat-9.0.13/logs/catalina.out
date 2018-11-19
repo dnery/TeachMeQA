@@ -136,3 +136,725 @@
 15-Nov-2018 15:49:14.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 15-Nov-2018 15:49:14.907 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 15-Nov-2018 15:49:14.922 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 400 ms
+15-Nov-2018 16:54:11.588 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 16:54:11.605 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 16:54:11.617 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Nov-2018 16:54:11.706 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 16:54:11.714 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 16:54:11.721 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 16:54:11.722 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:16:00.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 10:16:00.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 10:16:00.990 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 10:16:01.063 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:16:01.070 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:16:01.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:16:01.077 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:16:01.077 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 313 ms
+19-Nov-2018 10:16:01.093 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 10:16:01.093 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 10:16:01.104 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 10:16:01.287 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [182] ms
+19-Nov-2018 10:16:01.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 10:16:01.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [149] ms
+19-Nov-2018 10:16:01.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 10:16:01.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [9] ms
+19-Nov-2018 10:16:01.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 10:16:01.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 10:16:01.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 10:16:01.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [7] ms
+19-Nov-2018 10:16:01.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 10:16:01.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 10:16:01.478 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:16:01.488 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:16:01.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 421 ms
+19-Nov-2018 10:35:04.561 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 10:35:04.562 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:35:04.568 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:35:04.574 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 10:35:04.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:35:04.594 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:35:04.595 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:35:04.595 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:56:09.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 10:56:09.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 10:56:09.257 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 10:56:09.323 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:56:09.329 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:56:09.336 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:56:09.336 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:56:09.337 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 286 ms
+19-Nov-2018 10:56:09.352 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 10:56:09.352 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 10:56:09.362 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 10:56:09.531 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [169] ms
+19-Nov-2018 10:56:09.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 10:56:09.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [144] ms
+19-Nov-2018 10:56:09.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 10:56:09.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [7] ms
+19-Nov-2018 10:56:09.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 10:56:09.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 10:56:09.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 10:56:09.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [8] ms
+19-Nov-2018 10:56:09.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 10:56:09.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [10] ms
+19-Nov-2018 10:56:09.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:56:09.739 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:56:09.759 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 421 ms
+19-Nov-2018 10:59:05.765 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 10:59:05.766 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:59:05.773 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:59:05.778 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 10:59:05.795 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:59:05.796 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:59:05.797 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:59:05.797 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:59:21.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 10:59:21.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 10:59:21.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 10:59:21.675 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:59:21.681 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:59:21.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:59:21.689 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 10:59:21.691 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 324 ms
+19-Nov-2018 10:59:21.707 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 10:59:21.707 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 10:59:21.718 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 10:59:21.736 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding] was found with a last modified time that did not match the associated WAR. It will be deleted.
+19-Nov-2018 10:59:21.896 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [178] ms
+19-Nov-2018 10:59:21.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 10:59:22.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [141] ms
+19-Nov-2018 10:59:22.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 10:59:22.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [8] ms
+19-Nov-2018 10:59:22.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 10:59:22.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 10:59:22.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 10:59:22.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [8] ms
+19-Nov-2018 10:59:22.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 10:59:22.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 10:59:22.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 10:59:22.095 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 10:59:22.109 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 418 ms
+19-Nov-2018 11:01:15.881 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 11:01:15.882 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:01:15.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:01:15.894 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 11:01:15.910 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:01:15.911 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:01:15.912 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:01:15.912 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:01:26.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 11:01:26.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 11:01:26.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 11:01:26.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:01:26.862 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:01:26.869 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:01:26.869 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:01:26.870 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 287 ms
+19-Nov-2018 11:01:26.885 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 11:01:26.885 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 11:01:26.896 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 11:01:26.908 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding] was found with a last modified time that did not match the associated WAR. It will be deleted.
+19-Nov-2018 11:01:27.007 SEVERE [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onboarding]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:986)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1858)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:772)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:972)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1432)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:801)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.IllegalArgumentException: The servlets named [IndexPageServlet] and [IndexServlet] are both mapped to the url-pattern [/index] which is not permitted
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:329)
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:322)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2422)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2099)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1985)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1150)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:769)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+19-Nov-2018 11:01:27.008 SEVERE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onboarding]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:986)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1858)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:772)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:972)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1432)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:801)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+19-Nov-2018 11:01:27.008 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [113] ms
+19-Nov-2018 11:01:27.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 11:01:27.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [183] ms
+19-Nov-2018 11:01:27.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 11:01:27.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [8] ms
+19-Nov-2018 11:01:27.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 11:01:27.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [15] ms
+19-Nov-2018 11:01:27.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 11:01:27.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [9] ms
+19-Nov-2018 11:01:27.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 11:01:27.236 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [12] ms
+19-Nov-2018 11:01:27.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:01:27.260 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:01:27.261 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 391 ms
+19-Nov-2018 11:04:09.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 11:04:09.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 11:04:09.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 11:04:09.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:04:09.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 11:04:09.586 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 11:04:09.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:04:09.659 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:04:09.666 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:04:09.666 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:04:09.670 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+19-Nov-2018 11:04:09.686 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 11:04:09.686 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 11:04:09.697 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 11:04:09.808 SEVERE [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onboarding]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:986)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1858)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:772)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:972)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1432)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:801)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.IllegalArgumentException: The servlets named [IndexServlet] and [IndexPageServlet] are both mapped to the url-pattern [/index] which is not permitted
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:329)
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:322)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2422)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2099)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1985)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1150)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:769)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+19-Nov-2018 11:04:09.809 SEVERE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Onboarding]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:986)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1858)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:772)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:972)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1432)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:944)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:261)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:801)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+19-Nov-2018 11:04:09.810 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [113] ms
+19-Nov-2018 11:04:09.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 11:04:09.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [188] ms
+19-Nov-2018 11:04:09.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 11:04:10.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [8] ms
+19-Nov-2018 11:04:10.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 11:04:10.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 11:04:10.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 11:04:10.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [7] ms
+19-Nov-2018 11:04:10.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 11:04:10.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 11:04:10.041 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:04:10.054 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:04:10.069 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 398 ms
+19-Nov-2018 11:05:24.905 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 11:05:24.905 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:05:24.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:05:24.918 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 11:05:24.931 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:05:24.932 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:05:24.933 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:05:24.933 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:05:54.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 11:05:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 11:05:54.856 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 11:05:54.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:05:54.929 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:05:54.935 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:05:54.936 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:05:54.937 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 285 ms
+19-Nov-2018 11:05:54.953 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 11:05:54.953 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 11:05:54.963 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 11:05:55.128 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [165] ms
+19-Nov-2018 11:05:55.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 11:05:55.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [142] ms
+19-Nov-2018 11:05:55.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 11:05:55.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [8] ms
+19-Nov-2018 11:05:55.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 11:05:55.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 11:05:55.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 11:05:55.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [7] ms
+19-Nov-2018 11:05:55.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 11:05:55.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 11:05:55.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:05:55.322 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:05:55.324 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 386 ms
+19-Nov-2018 11:17:04.174 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 11:17:04.175 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:17:04.181 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:17:04.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 11:17:04.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:17:04.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:17:04.208 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:17:04.208 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:17:38.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 11:17:38.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 11:17:38.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 11:17:38.651 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:17:38.658 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:17:38.665 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:17:38.666 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 11:17:38.667 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 289 ms
+19-Nov-2018 11:17:38.683 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 11:17:38.683 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 11:17:38.693 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war]
+19-Nov-2018 11:17:38.868 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/Onboarding.war] has finished in [174] ms
+19-Nov-2018 11:17:38.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 11:17:39.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [162] ms
+19-Nov-2018 11:17:39.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 11:17:39.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [9] ms
+19-Nov-2018 11:17:39.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 11:17:39.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [16] ms
+19-Nov-2018 11:17:39.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 11:17:39.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [9] ms
+19-Nov-2018 11:17:39.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 11:17:39.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 11:17:39.075 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 11:17:39.081 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 11:17:39.082 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 415 ms
+19-Nov-2018 13:09:42.319 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 13:09:42.319 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:09:42.326 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:09:42.332 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 13:09:42.349 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:09:42.350 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:09:42.351 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:09:42.351 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:31:30.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:31:30.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 13:31:30.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 13:31:31.071 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:31:31.077 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:31:31.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:31:31.085 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:31:31.086 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 302 ms
+19-Nov-2018 13:31:31.101 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 13:31:31.101 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 13:31:31.106 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:31:31.128 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:31:31.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 43 ms
+19-Nov-2018 13:32:07.934 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 13:32:07.934 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:07.941 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:07.947 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 13:32:07.948 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:07.949 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:07.958 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:07.959 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:11.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 13:32:11.648 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 13:32:11.718 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:11.726 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:32:11.734 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:11.734 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:32:11.736 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 297 ms
+19-Nov-2018 13:32:11.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 13:32:11.755 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 13:32:11.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:11.800 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:11.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 64 ms
+19-Nov-2018 13:32:30.840 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 13:32:30.840 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:30.847 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:30.853 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 13:32:30.854 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:30.855 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:30.868 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:30.868 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:34.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 13:32:34.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 13:32:34.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 13:32:34.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:34.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 13:32:34.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 13:32:34.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 13:32:34.549 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:34.555 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:32:34.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:34.564 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 13:32:34.565 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 299 ms
+19-Nov-2018 13:32:34.581 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 13:32:34.581 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 13:32:34.593 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/onboarding.war]
+19-Nov-2018 13:32:34.773 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/onboarding.war] has finished in [180] ms
+19-Nov-2018 13:32:34.775 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 13:32:34.824 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 13:32:34.826 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 260 ms
+19-Nov-2018 14:09:09.707 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 14:09:09.707 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 14:09:09.714 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 14:09:09.720 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 14:09:09.727 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 14:09:09.728 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 14:09:09.729 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 14:09:09.729 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 16:07:05.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-39-generic
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 16:07:05.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/conf/logging.properties
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/temp
+19-Nov-2018 16:07:05.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Nov-2018 16:07:05.887 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 16:07:05.893 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 16:07:05.900 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 16:07:05.901 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Nov-2018 16:07:05.902 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+19-Nov-2018 16:07:05.918 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2018 16:07:05.918 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+19-Nov-2018 16:07:05.928 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/onboarding.war]
+19-Nov-2018 16:07:06.095 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/onboarding.war] has finished in [167] ms
+19-Nov-2018 16:07:06.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples]
+19-Nov-2018 16:07:06.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/examples] has finished in [142] ms
+19-Nov-2018 16:07:06.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs]
+19-Nov-2018 16:07:06.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/docs] has finished in [8] ms
+19-Nov-2018 16:07:06.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager]
+19-Nov-2018 16:07:06.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/manager] has finished in [14] ms
+19-Nov-2018 16:07:06.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT]
+19-Nov-2018 16:07:06.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/ROOT] has finished in [8] ms
+19-Nov-2018 16:07:06.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager]
+19-Nov-2018 16:07:06.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dnery/Work/Onboarding/TeachMeQA/apache-tomcat-9.0.13/webapps/host-manager] has finished in [9] ms
+19-Nov-2018 16:07:06.279 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 16:07:06.291 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 16:07:06.303 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 400 ms
+19-Nov-2018 16:07:21.530 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2018 16:07:21.531 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 16:07:21.537 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 16:07:21.543 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2018 16:07:21.557 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 16:07:21.558 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Nov-2018 16:07:21.559 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2018 16:07:21.559 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
