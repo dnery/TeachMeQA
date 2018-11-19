@@ -14,7 +14,7 @@ node {
                 }
 
                 stage('Deploy') {
-                    sh './redeploy'
+                    sh './redeploy.sh'
                 }
 
                 stage('Tail') {
