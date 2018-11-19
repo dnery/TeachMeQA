@@ -1,4 +1,4 @@
-node('docker') {
+node {
     currentBuild.result = 'SUCCESS'
 
         try {
