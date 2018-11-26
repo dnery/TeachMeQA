@@ -7,14 +7,14 @@ Documentation     A resource file with reusable keywords and variables.
 Library           Selenium2Library
 
 *** Variables ***
-${SERVER}         localhost:7272
+${SERVER}         localhost:8080
 ${BROWSER}	Chrome
 ${DELAY}          0
 ${VALID USER}     demo
 ${VALID PASSWORD}    mode
-${LOGIN URL}      http://${SERVER}/
-${WELCOME URL}    http://${SERVER}/welcome.html
-${ERROR URL}      http://${SERVER}/error.html
+${LOGIN URL}      http://${SERVER}/onboarding/index.html
+${WELCOME URL}    http://${SERVER}/onboarding/welcome.html
+${ERROR URL}      http://${SERVER}/onboarding/error.html
 
 *** Keywords ***
 Open Browser To Login Page
