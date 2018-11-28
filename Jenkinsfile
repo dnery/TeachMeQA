@@ -1,7 +1,12 @@
 node {
     currentBuild.result = 'SUCCESS';
+
     try {
-        docker.image('maven:3.6.0-jdk-8').inside {
+        checkout scm;
+
+        def mvn_plus_robot_img = docker.build("my-image:${env.BUILD_ID}");
+
+        mvn_plus_robot_img.inside {
             stage('Checkout') {
                 checkout scm
             }
