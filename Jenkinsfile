@@ -2,23 +2,30 @@ node {
     currentBuild.result = 'SUCCESS';
 
     try {
-        checkout scm;
+        stage('Checkout') {
+            checkout scm;
+            stash 'source';
+        }
 
         def mvn_plus_robot_img = docker.build("my-image:${env.BUILD_ID}");
 
         mvn_plus_robot_img.inside {
-            stage('Checkout') {
-                checkout scm
-            }
             stage('Test-Env') {
+                unstash 'source';
+                echo '$JAVA_HOME';
                 sh 'mvn --version';
-                sh 'echo $JAVA_HOME';
             }
-            stage('Deploy') {
+            stage('Test-Deploy') {
                 sh './redeploy.sh';
             }
-            stage('Tail') {
+            stage('Test-Run') {
+                sh 'robot login_tests/';
+            }
+            stage('Test-Tail') {
                 sh 'tail apache-tomcat-9.0.13/logs/catalina.out';
+            }
+            stage('Test-Teardown') {
+                sh './apache-tomcat-9.0.13/bin/shutdown.sh';
             }
         }
 
@@ -29,10 +36,10 @@ node {
 
     } finally {
 
-        if (curentBuild.result == 'SUCCESS') {
-            sh 'echo "Build was a success!"';
+        if (currentBuild.result == 'SUCCESS') {
+            echo 'Build was a success!';
         } else {
-            sh 'echo "Build was a failure!"';
+            echo 'Build was a failure!';
         }
     }
 }

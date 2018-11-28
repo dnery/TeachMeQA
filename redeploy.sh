@@ -37,7 +37,8 @@ fi
 cp "target/${tmqa_war_file_name}" "${apache_webapps_dir}/"
 
 # re-start tomcat server
-if [[ $(ss -ltn | grep 8080 | wc -l) > 0 ]]; then
+#if [[ $(ss -ltn | grep 8080 | wc -l) > 0 ]]; then
+if [[ $(netstat -plunt | grep 8080 | wc -l) > 0 ]]; then
     echo "Error: port 8080 is already in use"
     exit 2
 fi
